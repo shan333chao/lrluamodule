@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<lcproj projname="蜂群模块公开版" is_acc_mode="0">
+    <lua entry="蜂群模块公开版.lua"/>
+    <rc entry="蜂群模块公开版.rc"/>
+    <ui entry="蜂群模块公开版.ui"/>
+    <luae entry="">
+        <file name="armeabi-v7a"/>
+        <file name="x86"/>
+        <file name="SWARMMODULAR.luae"/>
+    </luae>
+</lcproj>

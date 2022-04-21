@@ -1,5 +1,4 @@
 local  TULING_HELPER=require("TURING_HELPER")
-require("юахквш╨о╡Е╪Ч")
 local moveTouchs=require("MoveTouchs")
  
 	moveTouchs.DrawLine(161,1166,353,207)

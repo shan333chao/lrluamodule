@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<lcproj projname="SuperMVP" appname="super_mvp" autorotate="true" is_acc_mode="0" localmode="true" pkgname="com.god.girl" rgbmode="true" targetsize="720x1280">
+<lcproj appname="super_mvp" autorotate="true" is_acc_mode="0" localmode="true" pkgname="com.god.girl" projname="SuperMVP" rgbmode="true" targetsize="720x1280">
     <lua entry="SuperMVP.lua">
-        <file name="TURING_HELPER.lua"/>
+        <file name="common.lua"/>
+        <file name="Execute.lua"/>
+        <file name="Execute命令.lua"/>
         <file name="lume.lua"/>
-        <file name="utf8.lua"/>
         <file name="MoveTouchs.lua"/>
+        <file name="StraightLine.lua"/>
+        <file name="TURING_HELPER.lua"/>
+        <file name="utf8.lua"/>
     </lua>
+    <ui entry="SuperMVP.ui">
+        <file name="调用TURING.ui"/>
+    </ui>
     <rc entry="SuperMVP.rc">
         <file name="paddle.rc"/>
     </rc>
-    <ui entry="SuperMVP.ui"/>
     <luae entry="">
         <file name="armeabi-v7a\libpaddleocr.so"/>
-        <file name="x86\libpaddleocr.so"/>
         <file name="TURING.luae"/>
+        <file name="TURING_HELPER.luae"/>
+        <file name="x86\libpaddleocr.so"/>
         <file name="懒人综合插件.luae"/>
     </luae>
 </lcproj>

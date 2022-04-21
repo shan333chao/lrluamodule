@@ -1,0 +1,10 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lrzs",
+			"request": "launch",
+			"name": "懒人精灵",
+		}
+	]
+}
